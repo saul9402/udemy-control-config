@@ -11,7 +11,7 @@ time-validity:
   refresh-token: 3600
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/db_stocktaking?serverTimezone=America/Mexico_City&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/db_udemy_control?serverTimezone=America/Mexico_City&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
