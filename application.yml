@@ -1,0 +1,25 @@
+config:
+  security:
+    oauth:
+      client:
+        id: stocktaking-client-id
+        secret: $2a$10$3sbj9nu8uw6vb6M2FLZht.VQK6XcmTu4.jmanAaAJGBQP/bhUsHOS #Es el valor cifrado de: Ks2-Lsm54.Qmcn
+      jwt:
+        key: omfospmfomwpoPDMSPEOFMPOMPOmpomfp.seomfpowsmpfoampovmrpovmpo.spfonvpompvioqempvin.dfinvpinfpvinaspivnpid.fnvpidnf.pvindfpivnpdifnvpin76543567 #Esto sí es texto plano
+time-validity:
+  token: 3600
+  refresh-token: 3600
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_stocktaking?serverTimezone=America/Mexico_City&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
