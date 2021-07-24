@@ -6,10 +6,10 @@ zuul:
       - Set-Cookie
   routes:
     users:
-      service-id: stocktaking-ms-users
+      service-id: udemy-control-ms-users
       path: /api/users/**
     authentication:
-      service-id: stocktaking-ms-authentication
+      service-id: udemy-control-ms-authentication
       path: /api/authentication/**
     ignored-services: "*"
 ribbon:
