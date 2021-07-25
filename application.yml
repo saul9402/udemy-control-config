@@ -2,7 +2,7 @@ config:
   security:
     oauth:
       client:
-        id: stocktaking-client-id
+        id: client-id
         secret: $2a$10$3sbj9nu8uw6vb6M2FLZht.VQK6XcmTu4.jmanAaAJGBQP/bhUsHOS #Es el valor cifrado de: Ks2-Lsm54.Qmcn
       jwt:
         key: omfospmfomwpoPDMSPEOFMPOMPOmpomfp.seomfpowsmpfoampovmrpovmpo.spfonvpompvioqempvin.dfinvpinfpvinaspivnpid.fnvpidnf.pvindfpivnpdifnvpin76543567 #Esto sí es texto plano
