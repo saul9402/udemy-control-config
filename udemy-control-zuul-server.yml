@@ -11,6 +11,9 @@ zuul:
     authentication:
       service-id: udemy-control-ms-authentication
       path: /api/authentication/**
+    courses:
+      service-id: udemy-control-ms-courses
+      path: /api/courses/**
     ignored-services: "*"
 ribbon:
   ConnectTimeout: 90000
