@@ -4,6 +4,7 @@ zuul:
   sensitive-headers:
       - Cookie
       - Set-Cookie
+      - Authorization
   routes:
     users:
       service-id: udemy-control-ms-users
