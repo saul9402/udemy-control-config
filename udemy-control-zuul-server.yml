@@ -1,6 +1,6 @@
 server:
   port: 8090
-#Con esto redefines la lista de headers que pasan hacia los microservicios, por defecto dicha lista contiene Cookie, Set-Cookie y Authorization, esto quiere decir que ninguno de estos va a pasar a los demas microservicios, es por eso que se redefine para que sólo pase el Authorization.
+#Con esto redefines la lista de headers que pasan hacia los microservicios, por defecto dicha lista contiene Cookie, Set-Cookie y Authorization, esto quiere decir que ninguno de estos va a pasar a los demas microservicios, es por eso que se redefine para que solo pase el Authorization.
 zuul:
   sensitive-headers:
       - Cookie
